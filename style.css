@@ -1,0 +1,127 @@
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.clock {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: gray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.clock {
+  margin-bottom: 20px;
+}
+
+.clock label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.clock input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a05858;
+  border-radius: 4px;
+}
+
+.clock textarea {
+  height: 120px;
+}
+
+.clock button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clock button:hover {
+  background-color: #45a049;
+}
+
+/* CSS for footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* CSS for alarm clock */
+.clock {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.clock h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.clock input[type="time"] {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.clock button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+  .clock {
+    margin: 30px;
+    padding: 10px;
+  }
+
+  .clock h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .clock input[type="time"] {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .clock textarea {
+    height: 80px;
+  }
+
+  .clock button {
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-top: 5px;
+  }
+}
